@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* p{
+    color: #363636;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/assets/f7c45c17-a1dc-4710-957f-25ba109cddf8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.father-div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60%;
+    padding: 3%;
+    
+}
+
+.card-input {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    width: 80%; 
+    gap: 10px;
+    padding: 5%;
+    background-color: #d7d5d5;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px rgb(236, 253, 3);
+}
+
+.card-input h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    /* font-family: 'https://fontmeme.com/fontes/fonte-dobidoo/'; */
+    color: rgb(0, 0, 0);
+}
+
+.campo-valores p {
+    font-size: 15px;
+}
+
+.campo-valores {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.btt-div{
+    display: flex;
+    justify-content: center;
+}
+
+.btt-calcular {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 85px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(85, 172, 47);
+    border: 2px solid rgb(255, 0, 0);   
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.campo-valores input {
+    border-radius: 10px;
+    color: black;
+    background-color: #f1f1f1;
+    border: none;
+    height: 25px;
+    padding: 13px;
+}
+
+/* .show-table {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: auto;
+    padding: 2%;
+    border-radius: 10px;
+    margin-left: 21%;
+    background-color: rgb(70, 198, 244);
+    border-collapse: collapse;
+} */
+
+.Rule-IMC{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.field-IMC {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 95%;
+    height: 15%;
+}
+
+.adjustment{
+    display: flex;
+    margin: 3px;
+}
+
+
+.imc-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+}
+
+.imc-table img{
+    padding: 5%;
+    border-radius: 35px;
+}
+
+@media (min-width: 786px) {
+    .card-input{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 80%;
+        width: 50%; 
+        gap: 10px;
+        padding: 5%;
+        background-color: #d7d5d5;
+        border-radius: 10px;
+        box-shadow: 5px 5px 30px rgb(236, 253, 3);
+    }
+}
+
+
+@media (min-width: 1267px) and (max-width: 1309px) {
+    .card-input{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 380px;
+        width: 40%; 
+        gap: 10px;
+        padding: 5%;
+        background-color: #d7d5d5;
+        border-radius: 10px;
+        box-shadow: 5px 5px 30px rgb(236, 253, 3);
+    }
+}
+
+@media (min-width: 1600px) {
+    .card-input{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 400px;
+        width: 35%; 
+        gap: 10px;
+        padding: 5%;
+        background-color: #d7d5d5;
+        border-radius: 10px;
+        box-shadow: 5px 5px 30px rgb(236, 253, 3);
+    }
+}

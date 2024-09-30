@@ -147,14 +147,14 @@ body, html {
     border-radius: 35px;
 }
 
-@media (min-width: 786px) {
+@media (min-width: 384px) and (max-width: 786px){
     .card-input{
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        height: 80%;
-        width: 50%; 
+        height: 95%;
+        width: 80%; 
         gap: 10px;
         padding: 5%;
         background-color: #d7d5d5;

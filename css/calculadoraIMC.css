@@ -143,24 +143,7 @@ body, html {
     }
 }
 
-
-@media (min-width: 1267px) and (max-width: 1309px) {
-    .card-input{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        height: 380px;
-        width: 40%; 
-        gap: 10px;
-        padding: 5%;
-        background-color: #d7d5d5;
-        border-radius: 10px;
-        box-shadow: 5px 5px 30px rgb(236, 253, 3);
-    }
-}
-
-@media (min-width: 1400px) and (max-width: 2000px) {
+@media (min-width: 1000px) and (max-width: 2000px) {
     .card-input{
         display: flex;
         justify-content: center;

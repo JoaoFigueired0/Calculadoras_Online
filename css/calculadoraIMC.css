@@ -147,7 +147,7 @@ body, html {
     border-radius: 35px;
 }
 
-@media (min-width: 375px) and (max-width: 786px){
+@media (min-width: 385px) and (max-width: 786px){
     .card-input{
         display: flex;
         justify-content: center;
